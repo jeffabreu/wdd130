@@ -4,11 +4,27 @@ body {
     padding: 0;
 }
 
-header {
+header, footer {
     margin: 0 auto;
-    border: 1px solid rgb(62, 131, 59);
     padding: 0,5rem;
-    background-color: rgb(223, 202, 159);
+    background-color: rgba(172, 187, 255, 0.733);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    grid-template-columns: 200px 1fr;
+}
+
+main {
+    margin: 1rem auto;
+    background-color: rgba(128, 255, 0, 0.192);
+    
+}
+
+footer {
+    grid-template-columns: 1fr 200px;
 }
 
 h1 {
@@ -20,4 +36,12 @@ h2 {
     color: rgb(28, 240, 255);
 }
 
+p {
+    color: black;
+}
+
 /*Class Selectors*/
+.page {
+    width: 760px;
+    margin: 0 auto;
+}
