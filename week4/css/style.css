@@ -1,0 +1,23 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0 auto;
+    border: 1px solid rgb(62, 131, 59);
+    padding: 0,5rem;
+    background-color: rgb(223, 202, 159);
+}
+
+h1 {
+    color: rgb(10, 247, 136);
+    font-size: 2.2rem;
+}
+
+h2 {
+    color: rgb(28, 240, 255);
+}
+
+/*Class Selectors*/
