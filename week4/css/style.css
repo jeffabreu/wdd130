@@ -7,6 +7,7 @@ body {
 header, footer {
     margin: 0 auto;
     padding: 0,5rem;
+    border: solid chartreuse;
     background-color: rgba(172, 187, 255, 0.733);
     display: grid;
     align-items: center;
