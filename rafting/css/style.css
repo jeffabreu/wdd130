@@ -25,7 +25,14 @@ main {
 }
 
 footer {
-    grid-template-columns: 1fr 350px;
+    grid-template-columns: 1fr 200px;
+}
+
+footer img {
+    height: auto;
+    width: auto;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 h1 {
@@ -56,9 +63,12 @@ p {
 .mainnav a {
     display: block;
     padding: 1rem;
+    text-decoration-line: none;
     background-color: rgba(10, 247, 136);
+    font-weight: 900;
     font-size: 1.3rem;
     font-variant-caps: all-petite-caps;
+    color: rgba(255, 255, 255);
 }
 
 .mainnav a:hover {
@@ -82,9 +92,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.itens section {
-    display: block;
-}
+
 .itens p {
     display: flex;
     text-align: center;
