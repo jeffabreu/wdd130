@@ -182,21 +182,26 @@
 
 }
 .green6 {
-  width: 100px;
+  width: 150px;
   height: 100px;
   background-color: green;
-  grid-row-start: 3;
   grid-column-start: 1;
-  position: rela;
+  grid-column-end: 2;
+  position: relative;
+  z-index: 1;
+  top: 80px;
 }
 .yellow6 {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 180px;
   background-color: gold;
-  grid-row-start: 3;
-  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
   position: relative;
-  right: 50px
+  z-index: 1;
+  top: 100px
 }
 .blue6 {
   width: 300px;
@@ -208,7 +213,7 @@
   grid-row-end: 3;
   position: absolute;
   top: 50px;
-  right: 20px;
+  right: 230px;
 }
 /* Do not change this container class */
 .activity {
