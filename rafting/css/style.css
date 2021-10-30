@@ -8,8 +8,7 @@ body {
 header, footer {
     margin: 0 auto;
     padding: 0.5rem;
-    border: solid rgba(127, 255, 0);
-    background-color: rgba(172, 187, 255, 0.733);
+    background-color: none;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -68,7 +67,7 @@ p {
     font-weight: 900;
     font-size: 1.3rem;
     font-variant-caps: all-petite-caps;
-    color: rgba(255, 255, 255);
+    color: rgb(5, 2, 2);
 }
 
 .mainnav a:hover {
@@ -81,8 +80,34 @@ p {
     margin: 0 auto;
 }
 
-.hero-image {
+.banner {
     text-align: center;
+}
+
+.background img {
+    height: auto;
+    width: auto;
+    max-width: 280px;
+    max-height: 280px;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    align-content: center;
+    opacity: 80%;
+}
+
+.banner P {
+    font-size: 1rem;
+    text-shadow: 
+               -1px -1px 0px rgba(10, 247, 136), 
+               -1px 1px 0px rgba(10, 247, 136),      
+                1px -1px 0px rgba(10, 247, 136),    
+                1px 0px 0px rgba(10, 247, 136);
+    font-weight: 1000;
+    position: absolute;
+    top: 250px;
+    left: 380px;
+    z-index: 1;
 }
 
 .itens {
@@ -111,6 +136,5 @@ p {
 }
 
 .logo {
-    display: flex;
     justify-content: center;
 }
