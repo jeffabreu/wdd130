@@ -35,8 +35,17 @@ footer img {
 }
 
 h1 {
-    color: rgba(10, 247, 136);
-    font-size: 2.2rem;
+    font-size: 1rem;
+    text-shadow: 
+               -1px -1px 0px rgba(10, 247, 136), 
+               -1px 1px 0px rgba(10, 247, 136),      
+                1px -1px 0px rgba(10, 247, 136),    
+                1px 0px 0px rgba(10, 247, 136);
+    font-weight: 2000;
+    position: absolute;
+    top: 250px;
+    left: 380px;
+    z-index: 1;
 }
 
 h2 {
@@ -97,6 +106,10 @@ p {
 }
 
 .banner P {
+    display: block;
+    padding: 0.5rem;
+    border-radius: 20px;
+    background-color: aqua;
     font-size: 1rem;
     text-shadow: 
                -1px -1px 0px rgba(10, 247, 136), 
@@ -105,11 +118,14 @@ p {
                 1px 0px 0px rgba(10, 247, 136);
     font-weight: 1000;
     position: absolute;
-    top: 250px;
-    left: 380px;
+    top: 280px;
+    left: 430px;
     z-index: 1;
 }
+.banner p:hover {
+    transform: scale(1.4);
 
+}
 .itens {
     margin: 0 auto;
     padding: 0.5rem;
