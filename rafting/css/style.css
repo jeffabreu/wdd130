@@ -34,24 +34,25 @@ footer img {
 }
 
 h1 {
-    font-size: 1rem;
+    color: rgba(240, 248, 255);
+    font-size: 1.5rem;
     text-shadow: 
-               -1px -1px 0px rgba(10, 247, 136), 
-               -1px 1px 0px rgba(10, 247, 136),      
-                1px -1px 0px rgba(10, 247, 136),    
-                1px 0px 0px rgba(10, 247, 136);
+               -1px -1px 0px rgb(0, 0, 0), 
+               -1px 1px 0px rgb(0, 0, 0),      
+                1px -1px 0px rgb(0, 0, 0),    
+                1px 0px 0px rgb(0, 0, 0);
     font-weight: 1000;
     position: absolute;
     top: 250px;
-    left: 380px;
+    left: 330px;
     z-index: 1;
 }
 
 h2 {
-    color: rgb(0, 0, 255);
+    color: rgb(0, 0, 0);
     display: block;
     padding: 1rem;
-    background-color: rgb(28, 240, 255);
+    background-color: rgba(10, 247, 136);
 }
 
 p {
