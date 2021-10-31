@@ -2,14 +2,27 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
 }
 
-header, footer {
+header h2 {
     margin: 0 auto;
     padding: 0.5rem;
     background-color: none;
     display: grid;
     align-items: center;
     justify-content: center;
+}
+
+main img {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/*Class Selectors*/
+.page {
+    width: 760px;
+    margin: 0 auto;
 }
