@@ -109,9 +109,8 @@ p {
 
 .banner P {
     display: block;
-    padding: 0.5rem;
-    border-radius: 20px;
-    background-color: aqua;
+    padding: 0.5rem auto;
+    border-radius: 20px auto;
     font-size: 1rem;
     text-shadow: 
                -1px -1px 0px rgba(10, 247, 136), 
@@ -119,6 +118,7 @@ p {
                 1px -1px 0px rgba(10, 247, 136),    
                 1px 0px 0px rgba(10, 247, 136);
     font-weight: 1000;
+    background-color: rgba(8, 240, 248);
     position: absolute;
     top: 280px;
     left: 430px;
