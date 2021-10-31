@@ -48,7 +48,10 @@ h1 {
 }
 
 h2 {
-    color: rgb(28, 240, 255);
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 1rem;
+    background-color: rgb(28, 240, 255);
 }
 
 p {
