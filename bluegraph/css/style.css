@@ -5,9 +5,35 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
 }
 
+main {
+    margin: 0 auto;
+    padding: 0.5rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(180, 184, 179);
+}
+
+header {
+    display: grid;
+}
+
+
 header h2 {
     margin: 0 auto;
-    padding: 0.4rem;
+    padding: 0.5rem;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -23,5 +49,6 @@ main img {
 /*Class Selectors*/
 .page {
     width: 760px;
-    margin: 0 auto;
+    margin: 1rem auto;
+    background-color: rgb(206, 206, 206);
 }
