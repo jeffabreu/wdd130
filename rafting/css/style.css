@@ -1,8 +1,9 @@
 body {
     font-size: 16px;
+    font-weight: 500;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-family:fantasy;
 }
 
 header, footer {
@@ -35,16 +36,16 @@ footer img {
 
 h1 {
     color: rgba(240, 248, 255);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-shadow: 
                -1px -1px 0px rgb(0, 0, 0), 
                -1px 1px 0px rgb(0, 0, 0),      
                 1px -1px 0px rgb(0, 0, 0),    
                 1px 0px 0px rgb(0, 0, 0);
-    font-weight: 1000;
+    font-weight: 400;
     position: absolute;
-    top: 20px;
-    left: 330px;
+    top: 10px;
+    left: 340px;
     z-index: 1;
 }
 
@@ -54,8 +55,15 @@ h2 {
     padding: 2rem;
     background-color: rgba(10, 247, 136);
     text-align: center;
-}
+    font-variant-caps: all-petite-caps;
+    font-size: 2rem;
+    font-weight: 500;
 
+}
+h3 {
+    background-color: rgba(10, 247, 136);
+    text-align: center;
+}
 p {
     color: rgba(0, 0, 0);
 }
@@ -77,7 +85,7 @@ p {
     padding: 1rem;
     text-decoration-line: none;
     background-color: rgba(10, 247, 136);
-    font-weight: 900;
+    font-weight: 500;
     font-size: 1.3rem;
     font-variant-caps: all-petite-caps;
     color: rgb(5, 2, 2);
@@ -86,6 +94,14 @@ p {
 .mainnav a:hover {
     color: rgb(0, 0, 0);
     background-color: rgba(8, 240, 248);
+}
+
+iframe {
+    height: auto;
+    width: auto;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
 }
 /*Class Selectors*/
 .page {
@@ -115,16 +131,17 @@ p {
     padding: 0.5rem;
     color: rgb(0, 0, 0);
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(8, 240, 248);
     font-size: 1rem;
     font-weight: 1000;
     position: absolute;
     top: 60px;
-    left: 430px;
+    left: 440px;
     z-index: 1;
 }
 .banner p:hover {
     transform: scale(1.4);
+    background-color: rgb(114, 244, 248)
 
 }
 .itens {
@@ -186,4 +203,72 @@ p {
 
 .logo {
     justify-content: center;
+}
+
+.rivers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.rivers iframe {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.rivers img {
+    height: auto;
+    width: auto;
+    max-width: 290px;
+    max-height: 290px;
+    border-radius: 20px;
+}
+
+.rivers p {
+    grid-column: 2/3;
+}
+
+.riverpic {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.interesting {
+    grid-column: 1/4;
+}
+
+.locationinfo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.riverguide {
+    display: block;
+    background-color: rgba(10, 247, 136);
+    border-radius: 20px;
+}
+
+.riverguide img {
+    display: flex;
+    align-content: center;
+}
+
+.riverguide a {
+    display: block;
+    padding: 0.3rem;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(8, 240, 248);
+    font-size: 1.0rem;
+    font-weight: 1000;
+    position: absolute;
+    right: 400px;
+    top: 550px;
+    text-decoration: none;
+}
+
+.riverguide a:hover{
+    background-color: rgba(114, 244, 248);
 }
