@@ -271,3 +271,11 @@ iframe {
 .riverguide a:hover{
     background-color: rgba(114, 244, 248);
 }
+
+.bannerrivers {
+    display: block;
+    height: auto;
+    width: auto;
+    max-width: 280px;
+    max-height: 280px;
+}
