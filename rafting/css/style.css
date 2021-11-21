@@ -53,7 +53,7 @@ h1 {
 h2 {
     display: block;
     padding: 2rem;
-    color: rgb(255, 200, 80);
+    color: rgb(228, 156, 0);
     text-shadow: 
     -1px -1px 0px rgb(0, 0, 0), 
     -1px 1px 0px rgb(0, 0, 0),      
@@ -67,8 +67,9 @@ h2 {
 
 }
 h3 {
-    background-color: rgba(10, 247, 136);
     text-align: center;
+    font-size: 2rem;
+    font-variant-caps: all-petite-caps;
 }
 
 
@@ -245,6 +246,11 @@ iframe {
     grid-column: 1/2;
     grid-row: 1/2;
 }
+
+.locationinfo p{
+    background-color: rgba(10, 247, 136);
+    text-align: center;
+}
 .riverguide {
     display: block;
     background-color: rgba(10, 247, 136);
@@ -283,4 +289,24 @@ iframe {
     width: auto;
     max-width: 280px;
     max-height: 280px;
+}
+
+.office {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0.5rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.office p {
+    grid-column: 1/3;
+}
+
+.advantages1 {
+    grid-column: 1/2;
+}
+.office iframe {
+    grid-row: 3/4;
 }
