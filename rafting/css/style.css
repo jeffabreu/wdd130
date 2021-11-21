@@ -254,6 +254,7 @@ iframe {
 .riverguide {
     display: block;
     background-color: rgba(10, 247, 136);
+    height: 300px;
     border-radius: 20px;
     position: relative
 }
