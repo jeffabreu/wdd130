@@ -298,6 +298,7 @@ iframe {
     grid-gap: 0.5rem;
     margin: 0 auto;
     padding: 0.5rem;
+    align-content: center;
 }
 
 .office p {
@@ -308,5 +309,11 @@ iframe {
     grid-column: 1/2;
 }
 .office iframe {
+    margin-left: 2rem;
+    grid-row: 3/4;
+}
+.office img{
+    margin-left: 2rem;
+    grid-column: 2/3;
     grid-row: 3/4;
 }
