@@ -6,7 +6,7 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
-    background-color: rgb(122, 122, 122);
+    background-color: rgb(180, 180, 180);
   }
   
   ul {
@@ -26,6 +26,11 @@ form {
     text-align: right;
     color: aliceblue;
     font-weight: 600;
+    text-shadow: 
+    -1px -1px 0px rgb(0, 0, 0), 
+    -1px 1px 0px rgb(0, 0, 0),      
+     1px -1px 0px rgb(0, 0, 0),    
+     1px 0px 0px rgb(0, 0, 0);
     
   }
   
@@ -48,6 +53,7 @@ form {
     /* Additional highlight for focused elements */
     background-color: aliceblue;
     border-color: rgb(136, 135, 135);
+    
   }
   
   textarea {
@@ -76,4 +82,5 @@ form {
     margin-left: .5em;
     border-radius: 20px;
     font-size: 1rem;
+    align-content: center;
   }
