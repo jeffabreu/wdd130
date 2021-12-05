@@ -57,11 +57,11 @@ footer img {
     display: block;
     padding: 1rem;
     text-decoration-line: none;
-    background-color: rgba(10, 247, 136);
+    background-color: rgb(0, 0, 0);
     font-weight: 500;
     font-size: 1.3rem;
     font-variant-caps: all-petite-caps;
-    color: rgb(5, 2, 2);
+    color: rgb(255, 255, 255);
 }
 
 /*Class Selectors*/
