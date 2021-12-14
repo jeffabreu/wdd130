@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(to right, #68bbff, #eef2f3);
-    font-size: 16px;
+    font-size: 17px;
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
@@ -41,6 +41,23 @@ footer img {
     max-height: 50px;
 }
 
+button {
+    background-color: rgb(236,36,140);
+    border-color: black;
+    border-radius: 1rem;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 800;
+    transition-duration: 0.6s;
+}
+
+button:hover {
+    background-color: rgb(195, 252, 252);
+    border-width: 0.2rem;
+}
+
 .mainnav {
     list-style-type: none;
     display: flex;
@@ -73,14 +90,34 @@ footer img {
 .banner, .catchingbox {
     display: block;
     background-color: cyan;
-    padding: 1rem;
-    margin-right: 10px;
-    margin-left: 10px;
+    padding: 2rem;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+.banner {
+    position: relative;
+    height: 300px;
 }
 
 .infobox {
     display: block;
-    width: 250px;
+    width: 200px;
+    height: 260px;
+    background-color: black;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 15px;
+}
+
+.infobox p,h1{
+   color: white;
 }
 
 .contents {
@@ -96,5 +133,28 @@ footer img {
 }
 
 .catchingbox {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    
+}
+
+.catchingbox p,h2{
+    grid-column: 1/2;
+    text-align: center;   
+}
+
+.contentsearch {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 1fr ;
+}
+
+.search-filters {
+    grid-column: 1/2;
+}
+
+.products {
+    grid-column: 2/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
 }
