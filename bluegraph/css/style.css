@@ -105,6 +105,10 @@ a:focus {
     color: rgb(255, 255, 255);
 }
 
+.mainnav a:hover {
+    background-color: rgb(236,36,140);;
+}
+
 /*Class Selectors*/
 .page {
     width: 900px;
