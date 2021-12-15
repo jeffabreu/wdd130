@@ -41,6 +41,9 @@ footer img {
     max-height: 50px;
 }
 
+input {
+    color: rgb(236,36,140);
+}
 button {
     background-color: rgb(236,36,140);
     border-color: black;
@@ -69,10 +72,16 @@ h3 {
     color: rgb(255, 255, 255);
     border-radius: 1rem;
 }
-.search {
+.search, .seemore a{
     text-align: center;
     padding: 1rem;
-    
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-decoration-line: none;
+    font-size: 20px;    
+}
+a:focus {
+    color: rgb(236,36,140);
 }
 .mainnav {
     display: flex;
@@ -116,7 +125,18 @@ h3 {
 .banner {
     position: relative;
     height: 300px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
 }
+.buttonsbanner {
+    grid-column: 2/3;
+    display: flex;
+}
+.businesscardbutton:hover, .clothtagbutton:hover, .thankcardbutton:hover {
+    transform: scale(1.2);
+
+}
+
 
 .infobox {
     display: block;
@@ -156,7 +176,12 @@ h3 {
 
 .catchingbox p,h2{
     grid-column: 1/2;
-    text-align: center;   
+    text-align: center;  
+}
+
+.catchingbox img {
+    grid-row: 1/3;
+    grid-column: 2/3;
 }
 
 .contentsearch {
@@ -174,7 +199,7 @@ h3 {
 }
 
 .products {
-    grid-column: 2/5;
+    grid-column: 3/5;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
