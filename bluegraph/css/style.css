@@ -186,8 +186,9 @@ a:focus {
     text-align: center; 
     
 }
-.catchingbox p {
+.catchingbox p, .price {
     font-size: 18px;
+    font-weight: 600;
 }
 .contentsabout img {
     height: 200px;
